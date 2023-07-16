@@ -1,18 +1,21 @@
 <template>
+    
     <nav class="nav">
-      <div class="logo">
-        <a href="#" class="logo text-lg">
-          Nuxt Fundamentals
-        </a>
-  
-        <span class="subheader">A Vue School course</span>
-      </div>
+        <nuxt-link to="/">
+            <div class="logo">
+                Nuxt Fundamentals
+                   <span class="subheader">A Vue School course</span>
+           </div>
+        </nuxt-link>
+ 
     </nav>
-  </template>
+</template>
+
   
   <script>
     export default {}
   </script>
+
   
   <style scoped>
     nav {
@@ -47,3 +50,7 @@
       border-left: 1px solid rgb(255, 255, 255, 0.2);
     }
   </style>
+                
+      
+
+  

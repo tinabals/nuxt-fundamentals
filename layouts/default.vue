@@ -2,7 +2,6 @@
     <div class="container">
       <TheNavbar/>
       <nuxt/>
-    ``
     </div>
   </template>
   
